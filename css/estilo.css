@@ -1,0 +1,88 @@
+header, footer{
+
+    background: rgb(176, 100, 226);
+    color:white;
+}
+
+h1 {
+  color: rgb(23, 0, 128);
+}
+
+h2 {
+    color: rgb(117, 179, 230); 
+}
+
+.linea_menu {
+
+  background-color: grey;
+  border: grey;
+}
+
+.banner-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/banner.jpg");
+
+  /* Set a specific height */
+  max-width: 1280px;
+  max-height: 300px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    background-color:lightpink;
+    text-align: left;
+    max-width: 1280px;
+    max-height: 1280px;
+  }
+
+  .fa {
+    padding: 2px;
+    width: 4px;
+    text-align: center;
+    text-decoration: none;
+  }
+   
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+  
+    color: whith;
+  }
+  /* instagram */
+  .fa-instagram {
+   
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+   
+    color: white;
+  }
+
+   /* Linkedin*/
+   .fa-linkedin {
+   
+    color: white;
+  }
+
+
+  .Div1 {
+    text-align: left;
+
+    background-color: lightgreen;
+  }
+
+  .Div2{
+    text-align: left;
+    background-color: lightpink;
+  }
