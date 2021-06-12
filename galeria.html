@@ -4,9 +4,7 @@
         <link rel="stylesheet" href="css/estilo.css">
         <title>Proyecto Final </title>
         <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
-
-
-    
+        <script src="scripts/miscript.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -28,32 +26,33 @@
         </div> 
         
         <h2> Galeria</h2>
-                <button> Mascotas </button>
-                <button> Hobbie  </button>
-                <button> Galeria </button>
-          <table id="galerias">
-                <tr>
-                    <th> <img class="mascotas" src="imagenes/mascota1.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/mascota2.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/mascota3.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/mascota4.jpg"></th>
-                </tr>
-                <tr hidden>
-                    <th> <img class="mascotas" src="imagenes/hobbie1.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/hobbie2.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/hobbie3.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/hobbie4.jpg"></th>
-                </tr>
-                <tr hidden>
-                    <th> <img class="mascotas" src="imagenes/amigos1.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/amigos2.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/amigos3.jpg"></th>
-                    <th> <img class="mascotas" src="imagenes/amigos4.jpg"></th>
-                </tr>
+     
+        <button onclick="toggleMascotas()"> Mascotas</button>
+        <button onclick="toggleHobbies()"> Hobbies</button>
+        <button onclick="toggleAmigos()"> Amigos</button>
+      
+        <table  id="galerias">
+                    <tr id="mascotas_galeria" hidden>
+                        <th> <img class="fotoGaleria" src="imagenes/mascota1.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/mascota2.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/mascota3.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/mascota4.jpg"></th>
+                    </tr>
+                    <tr id="hobbies_galeria" hidden>
+                        <th> <img class="fotoGaleria" src="imagenes/hobbie1.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/hobbie2.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/hobbie3.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/hobbie4.jpg"></th>
+                    </tr> 
+                    <tr id="amigos_galeria">
+                        <th> <img class="fotoGaleria" src="imagenes/amigos1.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/amigos2.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/amigos3.jpg"></th>
+                        <th> <img class="fotoGaleria" src="imagenes/amigos4.jpg"></th>
+                    </tr>
 
-
-            </table>
-                
+        </table>
+            
             <footer> <p> Hecho por Daniela Solis B.</p>
             <a href = "http://www.facebook.com" target="_top">  <i class="fab fa-facebook-f"></i>  | </a>
              
@@ -61,7 +60,7 @@
             <a href="http://www.twitter.com"><i class="fab fa-twitter"></i> | </a>
             <a href="http://www.linkedin.com"> <i class="fab fa-linkedin-in"></i> </a>
         </footer>
-           <script src="scripts/miscript.js" type="text/javascript" ></script>
+        
     </body>
 </html>
 
