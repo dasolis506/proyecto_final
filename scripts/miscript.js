@@ -1,14 +1,14 @@
 function toggleBloque(){
     var demo= document.getElementById("demo");
-    var operaciones= document.getElementById("operacionesContenedor");  
+       var mastexto= document.getElementById("mastexto"); 
     
-    if (operaciones.style.display === "none"){
-        demo.textContent = "Ocultar operaciones"
-        operaciones.style.display="block"
+    if (mastexto.style.display === "none"){
+        demo.textContent = "mostrar menos  ";
+        mastexto.style.display="block";
 
     }else{
-        demo.textContent = "Mostrar operaciones"
-        operaciones.style.display="none"
+        demo.textContent = "Mostrar más ";
+        mastexto.style.display="none";
     }
 
 }

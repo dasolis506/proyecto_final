@@ -80,9 +80,17 @@ body {
     text-align: left;
 
     background-color: lightgreen;
+    min-width: 400px;
   }
 
   .Div2{
     text-align: left;
-    background-color: lightpink;
+    background-color: lightgrey;
+    min-width: 400px;
+  }
+
+  img.mascotas{
+width: 180px;
+height: 220px;
+object-fit:cover;
   }
