@@ -17,14 +17,14 @@ function toggleMascotas(){
     var hobbies_galeria=document.getElementById("hobbies_galeria"); 
     var mascotas_galeria=document.getElementById("mascotas_galeria"); 
     var amigos_galeria=document.getElementById("amigos_galeria"); 
-    var a=document.getElementById("A"); 
-    var h=document.getElementById("H"); 
-    var m=document.getElementById("M"); 
+    var a=document.getElementById("amigos_boton"); 
+    var h=document.getElementById("hobbies_boton"); 
+    var m=document.getElementById("mascotas_boton"); 
     
     mascotas_galeria.style.display="block";
-    m.style.backgroundColor="#AA0000";
-    a.style.backgroundColor="#FFFFFF";
-    h.style.backgroundColor="#FFFFFF";
+    m.style.backgroundColor="purple";
+    a.style.backgroundColor="lightcoral";
+    h.style.backgroundColor="lightcoral";
 
     amigos_galeria.style.display="none";
     mascotas_galeria.style.display="block";
@@ -36,30 +36,30 @@ function toggleAmigos(){
     var hobbies_galeria=document.getElementById("hobbies_galeria"); 
     var mascotas_galeria=document.getElementById("mascotas_galeria"); 
     var amigos_galeria=document.getElementById("amigos_galeria"); 
-    var a=document.getElementById("A"); 
-    var h=document.getElementById("H"); 
-    var m=document.getElementById("M"); 
+    var a=document.getElementById("amigos_boton"); 
+    var h=document.getElementById("hobbies_boton"); 
+    var m=document.getElementById("mascotas_boton"); 
     
     amigos_galeria.style.display="block";
     mascotas_galeria.style.display="none";
     hobbies_galeria.style.display="none";
-    a.style.backgroundColor="#AA0000";
-    h.style.backgroundColor="#FFFFFF";
-    m.style.backgroundColor="#FFFFFF";
+    a.style.backgroundColor="purple";
+    h.style.backgroundColor="lightcoral";
+    m.style.backgroundColor="lightcoral";
 };
 
 function toggleHobbies(){
     var hobbies_galeria=document.getElementById("hobbies_galeria"); 
     var mascotas_galeria=document.getElementById("mascotas_galeria"); 
     var amigos_galeria=document.getElementById("amigos_galeria"); 
-    var a=document.getElementById("A"); 
-    var h=document.getElementById("H"); 
-    var m=document.getElementById("M"); 
+    var a=document.getElementById("amigos_boton"); 
+    var h=document.getElementById("hobbies_boton"); 
+    var m=document.getElementById("mascotas_boton"); 
     
     amigos_galeria.style.display="none";
     mascotas_galeria.style.display="none";
     hobbies_galeria.style.display="block";
-    h.style.backgroundColor="#AA0000";
-    a.style.backgroundColor="#FFFFFF";
-    m.style.backgroundColor="#FFFFFF";
+    h.style.backgroundColor="purple";
+    a.style.backgroundColor="lightcoral";
+    m.style.backgroundColor="lightcoral";
 };

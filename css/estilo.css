@@ -1,6 +1,6 @@
 header, footer{
 
-    background: rgb(176, 100, 226);
+    background: rgb(111, 146, 240);
     color:white;
 }
 
@@ -14,18 +14,18 @@ h2 {
 
 .linea_menu {
 
-  background-color: grey;
-  border: grey;
+  background-color: rgb(185, 172, 172);
+  border:rgb(185, 172, 172);
 }
 
 .banner-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/banner.jpg");
+  background-image: linear-gradient(rgba(233, 83, 83, 0.5), rgba(109, 100, 185, 0.5)), url("../imagenes/banner.jpg");
 
   /* Set a specific height */
-  max-width: 1280px;
-  max-height: 300px;
 
+  width: 1280px;
+  height: 150px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ h2 {
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:medium;
-    background-color:lightpink;
+    background-color: lightgray;
     text-align: left;
     max-width: 1280px;
     max-height: 1280px;
@@ -55,7 +55,7 @@ body {
   /* Facebook */
   .fa-facebook {
   
-    color: whith;
+    color: white;
   }
   /* instagram */
   .fa-instagram {
@@ -78,86 +78,20 @@ body {
 
   .Div1 {
     text-align: left;
-
-    background-color: lightgreen;
+    background-color: rgb(178, 233, 178);
     min-width: 400px;
+    display: inline-block;
   }
 
   .Div2{
     text-align: left;
-    background-color: lightgrey;
+    background-color: lightpink;
     min-width: 400px;
+    display: inline-block;
   }
 
   img.fotoGaleria{
-width: 180px;
-height: 220px;
-object-fit:cover;
-  }
-
-
-  .navbar {
-    overflow: hidden;
-
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* The subnavigation menu */
-  .subnav {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Subnav button */
-  .subnav .subnavbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
-  }
-  
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: red;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  /* Style the subnav links */
-  .subnav-content a {
-    float: left;
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
-    background-color: #eee;
-    color: black;
-  }
-  
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
+    width: 180px;
+    height: 220px;
+    object-fit:cover;
   }
